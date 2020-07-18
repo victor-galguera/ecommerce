@@ -1,0 +1,17 @@
+uuid: a408eaf8-fe51-4a46-8845-764141898c90
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_store
+  module:
+    - commerce_store
+    - entity
+_core:
+  default_config_hash: _4Uh3mQA18aGlat_JmyPTEDWXiuiexldraA0zgTTbGY
+id: commerce_store_delete_action
+label: 'Borrar tienda'
+type: commerce_store
+plugin: 'entity_delete_action:commerce_store'
+configuration: {  }

@@ -1,0 +1,27 @@
+uuid: 8ebe21a9-deac-434b-aab5-b5f5ffc89a08
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - belgrade
+_core:
+  default_config_hash: nI9USQjCYio-S2yKUK3OfHTG92pwjXbHdzhKKeAWaAY
+id: belgrade_footer
+theme: belgrade
+region: footer
+weight: -5
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Menú del pie'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,14 @@
+uuid: 789edff9-a323-4119-b4f6-fce757159c4a
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: igdv1CXBTq9vh-ONhQ2SFkVhr3bdfRC6nP1Uubdx-L0
+id: default
+label: 'Por defecto'
+description: ''
+variationType: default
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

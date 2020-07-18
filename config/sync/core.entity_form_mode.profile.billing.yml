@@ -1,0 +1,15 @@
+uuid: 2ad42dad-7622-4f88-bdf2-e8020a1e7b00
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_order
+  module:
+    - profile
+_core:
+  default_config_hash: yeGwCxbA5dBAS_3eBkfaVrbxkASEM357dkjPZShKiR4
+id: profile.billing
+label: 'Dirección de Pago'
+targetEntityType: profile
+cache: true

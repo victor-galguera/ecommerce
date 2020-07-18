@@ -1,0 +1,25 @@
+uuid: 93439ed2-5ea5-4b76-bb0b-dab213597873
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.simple
+    - field.storage.commerce_product.body
+  module:
+    - text
+_core:
+  default_config_hash: bOeCQcwwZaMEh2ouT-GpCOcPV6TC6iDc8fC8RqmHpBg
+id: commerce_product.simple.body
+field_name: body
+entity_type: commerce_product
+bundle: simple
+label: Cuerpo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

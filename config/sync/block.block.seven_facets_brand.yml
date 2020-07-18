@@ -1,0 +1,28 @@
+uuid: 37742796-3a7a-45f5-8ec7-fa51a40b1327
+langcode: es
+status: false
+dependencies:
+  config:
+    - facets.facet.brand
+  module:
+    - facets
+    - system
+  theme:
+    - seven
+id: seven_facets_brand
+theme: seven
+region: header
+weight: 0
+provider: null
+plugin: 'facet_block:brand'
+settings:
+  id: 'facet_block:brand'
+  label: Brand
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: "/products\r\n/products/*"
+    negate: false
+    context_mapping: {  }

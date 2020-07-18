@@ -1,0 +1,28 @@
+uuid: b54114f3-5207-4073-9942-39d5a4dca715
+langcode: es
+status: false
+dependencies:
+  config:
+    - facets.facet.special_categories
+  module:
+    - facets
+    - system
+  theme:
+    - seven
+id: seven_facets_specialcategories
+theme: seven
+region: header
+weight: 2
+provider: null
+plugin: 'facet_block:special_categories'
+settings:
+  id: 'facet_block:special_categories'
+  label: 'Special categories'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: "/products\r\n/products/*"
+    negate: false
+    context_mapping: {  }
