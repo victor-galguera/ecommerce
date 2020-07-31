@@ -1,11 +1,11 @@
-uuid: caec3995-b97d-4894-a499-cb2a5b0280f8
+uuid: 5b3796e2-7755-446f-a557-5333ffbb9c21
 langcode: es
 status: true
 dependencies: {  }
 _core:
   default_config_hash: YhOM0jcATwJkv-haxTHjYz_S2grlzmTfC64NUyMhhNI
 id: clothing
-label: Clothing
+label: 'Con variantes'
 description: ''
 variationType: clothing
 multipleVariations: true

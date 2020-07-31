@@ -1,0 +1,11 @@
+uuid: 5638f924-9466-4e5a-a2b2-ff4e68f642c6
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.special_categories
+id: taxonomy_term.special_categories
+target_entity_type_id: taxonomy_term
+target_bundle: special_categories
+default_langcode: site_default
+language_alterable: false

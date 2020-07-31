@@ -1,4 +1,4 @@
-uuid: d4d4e46c-0d93-40ae-9977-ad68054d4aa6
+uuid: d1114289-f58a-4cbb-94bf-5a625bafd5ef
 langcode: es
 status: true
 dependencies:
@@ -12,7 +12,7 @@ id: commerce_product.clothing.field_special_categories
 field_name: field_special_categories
 entity_type: commerce_product
 bundle: clothing
-label: 'Special categories'
+label: 'Categorías Especiales'
 description: ''
 required: false
 translatable: false

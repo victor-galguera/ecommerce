@@ -1,0 +1,13 @@
+palette:
+  primary: '#437A9E'
+  light: '#437A9E'
+  lighter: '#d0e5f1'
+  dark: '#555B5E'
+  text: '#333333'
+  background: '#ffffff'
+logo: 'public://color/belgrade-18958b79/logo.svg'
+stylesheets:
+  - 'public://color/belgrade-18958b79/color.css'
+files:
+  - 'public://color/belgrade-18958b79/logo.svg'
+  - 'public://color/belgrade-18958b79/color.css'

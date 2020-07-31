@@ -1,10 +1,10 @@
-uuid: ada7e0ce-582b-4791-a385-67ffd232b63a
+uuid: bd658cbb-c913-48f4-be80-ac27dd9704b4
 langcode: es
 status: true
 dependencies: {  }
 _core:
   default_config_hash: dCWKvMiiLfQLJ7GqLzkk86TfGzs1bgTvRwATuh2WJR0
-name: Brands
+name: Marcas
 vid: brands
 description: ''
 weight: 0

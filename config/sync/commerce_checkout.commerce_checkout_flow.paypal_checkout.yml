@@ -1,0 +1,39 @@
+uuid: 033db5b5-e51e-4719-b2da-040ac15aeaf1
+langcode: es
+status: true
+dependencies:
+  module:
+    - commerce_demo
+    - commerce_paypal
+    - commerce_promotion
+    - commerce_shipping
+_core:
+  default_config_hash: lNJaUt8IZZTPVkYvR4MvoYxYJCbPx10KeynMhXpYV24
+id: paypal_checkout
+label: 'PayPal Checkout'
+plugin: paypal_checkout
+configuration:
+  display_checkout_progress: true
+  panes:
+    review:
+      step: review
+      weight: '0'
+    paypal_checkout_payment_process:
+      capture: true
+      step: payment
+      weight: '1'
+    completion_message:
+      step: complete
+      weight: '2'
+    order_summary:
+      view: ''
+      step: _sidebar
+      weight: '4'
+    login:
+      allow_guest_checkout: true
+      allow_registration: false
+      step: _disabled
+      weight: '8'
+    completion_register:
+      step: _disabled
+      weight: '6'

@@ -9,6 +9,22 @@ schemas:
   bootstrap: 8000
   commerce_bootstrap: 8000
   belgrade: 8000
+breadcrumb_title: false
+table_responsive: '-1'
+region_wells:
+  top_navigation: ''
+  sidebar_second: ''
+cdn_theme: ''
+cdn_cache_ttl_versions: 0
+cdn_cache_ttl_themes: 0
+cdn_cache_ttl_assets: 0
+cdn_cache_ttl_library: 0
+reset_http_request_cache: ''
+table: ''
+logo:
+  path: 'public://tu_logoaquifooter.png'
+  url: ''
+  use_default: false
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
@@ -19,9 +35,3 @@ features:
   comment_user_verification: true
   favicon: true
   node_user_picture: true
-logo:
-  path: ''
-  url: ''
-  use_default: true
-breadcrumb_title: false
-langcode: es

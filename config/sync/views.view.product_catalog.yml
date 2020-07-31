@@ -1,4 +1,4 @@
-uuid: 7c2b56ea-3987-46e2-88b4-3332c27aa9a7
+uuid: f1d83c0c-a09b-4d94-a9be-460e337729cc
 langcode: es
 status: true
 dependencies:
@@ -252,7 +252,8 @@ display:
         - url.query_args
         - 'url.query_args:sort_by'
         - 'url.query_args:sort_order'
-      tags: {  }
+      tags:
+        - 'config:search_api.index.products'
   page_1:
     display_plugin: page
     id: page_1
@@ -260,7 +261,7 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: products
+      path: productos
     cache_metadata:
       max-age: -1
       contexts:
@@ -270,4 +271,5 @@ display:
         - url.query_args
         - 'url.query_args:sort_by'
         - 'url.query_args:sort_order'
-      tags: {  }
+      tags:
+        - 'config:search_api.index.products'

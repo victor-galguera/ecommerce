@@ -1,4 +1,4 @@
-uuid: 53e21f19-e92b-4445-b284-9b2ccd22ed8d
+uuid: 3949ecc3-ada1-452e-86c7-85b8b913198a
 langcode: es
 status: true
 dependencies:
@@ -14,7 +14,7 @@ third_party_settings:
 _core:
   default_config_hash: x-6oPub9w20zcrtv6ZAxHeNuJT_f4Ja2QB1EgEG3Um8
 id: special_categories
-name: 'Special categories'
+name: 'Categorías Especiales'
 url_alias: special
 weight: 0
 min_count: 1

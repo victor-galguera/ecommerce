@@ -1,0 +1,29 @@
+uuid: db61c8eb-5b23-4544-818d-67dacb245e66
+langcode: es
+status: true
+dependencies:
+  module:
+    - commerce_paypal
+id: paypal
+label: Paypal
+weight: null
+plugin: paypal_checkout
+configuration:
+  payment_solution: smart_payment_buttons
+  client_id: AVYyZclcrmwyy5QQEx0F8TyQZaz_mbzFCHk1D_rh4hEa01gjAG_cmAaOxMH3NDIjFndzmFaY7ocnSu_u
+  secret: EFGwx3o4MHxOx-r5I8a9-3h07Oxhfy0piyM22-fOpYT1qrBldz_pHFLmjd0xPpRSL0sIsIG2qCEthIik
+  intent: capture
+  disable_funding: {  }
+  disable_card: {  }
+  shipping_preference: get_from_file
+  update_billing_profile: true
+  update_shipping_profile: true
+  style: {  }
+  enable_on_cart: false
+  collect_billing_information: false
+  display_label: PayPal
+  mode: test
+  payment_method_types:
+    - paypal_checkout
+conditions: {  }
+conditionOperator: AND

@@ -2,7 +2,6 @@ module:
   address: 0
   admin_toolbar: 0
   automated_cron: 0
-  backup_migrate: 0
   big_pipe: 0
   block: 0
   block_content: 0
@@ -22,6 +21,7 @@ module:
   commerce_order: 0
   commerce_payment: 0
   commerce_payment_example: 0
+  commerce_paypal: 0
   commerce_price: 0
   commerce_product: 0
   commerce_promotion: 0
@@ -34,6 +34,7 @@ module:
   ctools: 0
   datetime: 0
   dblog: 0
+  devel: 0
   dynamic_page_cache: 0
   editor: 0
   entity: 0
@@ -55,6 +56,9 @@ module:
   mailsystem: 0
   menu_link_content: 0
   menu_ui: 0
+  metatag: 0
+  metatag_facebook: 0
+  metatag_open_graph: 0
   node: 0
   options: 0
   page_cache: 0

@@ -1,6 +1,6 @@
-uuid: b186fab4-4558-46e0-aafb-5afeafd1938c
+uuid: 8bbc9e62-6ac8-4e77-bfab-1147b926e724
 langcode: es
-status: true
+status: false
 dependencies:
   module:
     - commerce_payment_example
