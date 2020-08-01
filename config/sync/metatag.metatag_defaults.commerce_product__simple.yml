@@ -1,0 +1,15 @@
+uuid: 29d54684-d8be-4ed8-ae5d-b1de88eade6e
+langcode: es
+status: true
+dependencies: {  }
+id: commerce_product__simple
+label: 'Producto: Simple'
+tags:
+  description: '[commerce_product:body:summary]'
+  title: '[commerce_product:title] | [site:name]'
+  og_description: '[commerce_product:body:summary]'
+  og_image: '[commerce_product:variations:0:entity:field_images:entity:url]'
+  og_site_name: '[site:name]'
+  og_title: '[commerce_product:title] | [site:name]'
+  og_type: product
+  og_url: '[site:url]'

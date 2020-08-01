@@ -1,0 +1,14 @@
+entity_type_groups:
+  commerce_product:
+    clothing:
+      basic: basic
+      advanced: advanced
+      open_graph: open_graph
+    default:
+      basic: basic
+      advanced: advanced
+      open_graph: open_graph
+    simple:
+      basic: basic
+      advanced: advanced
+      open_graph: open_graph

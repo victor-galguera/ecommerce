@@ -12,7 +12,7 @@ id: commerce_product.simple.field_brand
 field_name: field_brand
 entity_type: commerce_product
 bundle: simple
-label: Brand
+label: Marca
 description: ''
 required: true
 translatable: true

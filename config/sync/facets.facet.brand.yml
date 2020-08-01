@@ -14,7 +14,7 @@ third_party_settings:
 _core:
   default_config_hash: '-z0ZpOkoZei91WCef9jdk5iIirKnbO2t-tUJj3LLVMA'
 id: brand
-name: Brand
+name: Marca
 url_alias: brand
 weight: 0
 min_count: 1

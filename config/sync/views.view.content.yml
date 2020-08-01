@@ -2,13 +2,16 @@ uuid: 7ce56a58-845b-4494-8bb1-c718299fb79f
 langcode: es
 status: true
 dependencies:
+  config:
+    - field.storage.node.field_yoast_seo
   module:
     - node
     - user
+    - yoast_seo
 _core:
   default_config_hash: P7F4DFe8BL31DRVqsvS-ix9KZZqvvaPjZ7zEvGo9yNM
 id: content
-label: Contenido
+label: Content
 module: node
 description: 'Encontrar y administrar contenido.'
 tag: default
@@ -354,6 +357,12 @@ display:
           hide_alter_empty: true
           destination: true
           plugin_id: entity_operations
+        field_yoast_seo:
+          id: field_yoast_seo
+          table: node__field_yoast_seo
+          field: field_yoast_seo
+          type: yoastseo_formatter
+          plugin_id: field
       filters:
         title:
           id: title
@@ -544,7 +553,7 @@ display:
             operator_limit_selection: false
             operator_list: {  }
       sorts: {  }
-      title: Contenido
+      title: Content
       empty:
         area_text_custom:
           id: area_text_custom
@@ -582,20 +591,21 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       max-age: 0
-      tags: {  }
+      tags:
+        - 'config:field.storage.node.field_yoast_seo'
   page_1:
     display_options:
       path: admin/content/node
       menu:
         type: 'default tab'
-        title: Contenido
+        title: Content
         description: ''
         menu_name: admin
         weight: -10
         context: ''
       tab_options:
         type: normal
-        title: Contenido
+        title: Content
         description: 'Encuentre y gestione el contenido'
         menu_name: admin
         weight: -10
@@ -614,4 +624,5 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       max-age: 0
-      tags: {  }
+      tags:
+        - 'config:field.storage.node.field_yoast_seo'

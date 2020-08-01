@@ -1,0 +1,17 @@
+uuid: ad1d6fa2-85f3-4e70-9aba-60f5292267f6
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1noCXlegCr5HFehQRF1ViXy1jhU1jZ_sNN99a8Sj5jo
+id: front
+label: 'Front page'
+tags:
+  canonical_url: '[site:url]'
+  description: 'Contamos con todo tipo de artículos para la Protección Personal a precios bajos en Cubrebocas, Caretas, Gel y Kits de protección personal'
+  shortlink: '[site:url]'
+  title: '[current-page:title] | [site:name]'
+  og_description: 'Contamos con todo tipo de artículos para la Protección Personal a precios bajos en Cubrebocas, Caretas, Gel y Kits de protección personal'
+  og_site_name: '[site:name]'
+  og_title: '[current-page:title] | [site:name]'
+  og_url: '[site:url]'

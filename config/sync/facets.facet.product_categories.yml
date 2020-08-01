@@ -15,7 +15,7 @@ _core:
   default_config_hash: FFd-rHtPLQRB9DtK_j-GaRsZ5WRRbNMrnYTP6yF1BcI
 id: product_categories
 name: Categorías
-url_alias: category
+url_alias: categoría
 weight: 0
 min_count: 1
 show_only_one_result: false

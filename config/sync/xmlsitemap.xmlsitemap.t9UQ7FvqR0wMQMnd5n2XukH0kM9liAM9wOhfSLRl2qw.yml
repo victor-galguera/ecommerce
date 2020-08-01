@@ -1,0 +1,8 @@
+uuid: 0721c1ea-df32-49ac-955d-d75808323b08
+langcode: es
+status: true
+dependencies: {  }
+id: t9UQ7FvqR0wMQMnd5n2XukH0kM9liAM9wOhfSLRl2qw
+label: 'http://localhost/proyectos/ecommerce/demo-commerce/web'
+context:
+  language: es
